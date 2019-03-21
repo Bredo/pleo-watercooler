@@ -1,5 +1,8 @@
 {
     "require": {
-        "firebase/php-jwt": "^5.0"
+        "firebase/php-jwt": "^5.0",
+        "php-http/curl-client": "^2.0",
+        "guzzlehttp/psr7": "^1.5",
+        "jolicode/slack-php-api": "^1.1"
     }
 }

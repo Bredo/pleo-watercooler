@@ -6,17 +6,173 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit69bdcf24ba78ee4b176fc3f2c8ec93e9
 {
+    public static $files = array (
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '20f378a8a84881cf108b4428c19cf452' => __DIR__ . '/..' . '/league/uri-hostname-parser/src/functions_include.php',
+        'e1e8b49c332434256b5df11b0f0c2a62' => __DIR__ . '/..' . '/league/uri-parser/src/functions_include.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '48197193621c5ab80fbc196827e806d1' => __DIR__ . '/..' . '/league/uri-components/src/functions_include.php',
+        '244240de28ad61783068aef6c6b63aea' => __DIR__ . '/..' . '/league/uri-schemes/src/functions_include.php',
+        'ddc0a4d7e61c0286f0f8593b1903e894' => __DIR__ . '/..' . '/clue/stream-filter/src/functions.php',
+        '8cff32064859f4559445b89279f3199c' => __DIR__ . '/..' . '/php-http/message/src/filters.php',
+        'eadffebc88609f262c6ec51faebeac60' => __DIR__ . '/..' . '/league/uri-manipulations/src/functions_include.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Serializer\\' => 29,
+            'Symfony\\Component\\OptionsResolver\\' => 34,
+        ),
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Http\\Message\\' => 17,
+            'Psr\\Http\\Client\\' => 16,
+        ),
+        'L' => 
+        array (
+            'League\\Uri\\' => 11,
+        ),
+        'J' => 
+        array (
+            'JoliCode\\Slack\\Api\\' => 19,
+            'JoliCode\\Slack\\' => 15,
+            'Jane\\OpenApiRuntime\\' => 20,
+            'Jane\\JsonSchemaRuntime\\' => 23,
+        ),
+        'H' => 
+        array (
+            'Http\\Promise\\' => 13,
+            'Http\\Message\\MultipartStream\\' => 29,
+            'Http\\Message\\' => 13,
+            'Http\\Discovery\\' => 15,
+            'Http\\Client\\Curl\\' => 17,
+            'Http\\Client\\Common\\' => 19,
+            'Http\\Client\\' => 12,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+        ),
         'F' => 
         array (
             'Firebase\\JWT\\' => 13,
         ),
+        'C' => 
+        array (
+            'Clue\\StreamFilter\\' => 18,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Symfony\\Component\\Serializer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/serializer',
+        ),
+        'Symfony\\Component\\OptionsResolver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/options-resolver',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\Http\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
+        'League\\Uri\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/uri-components/src',
+            1 => __DIR__ . '/..' . '/league/uri-hostname-parser/src',
+            2 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            3 => __DIR__ . '/..' . '/league/uri-manipulations/src',
+            4 => __DIR__ . '/..' . '/league/uri-parser/src',
+            5 => __DIR__ . '/..' . '/league/uri-schemes/src',
+        ),
+        'JoliCode\\Slack\\Api\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jolicode/slack-php-api/generated',
+        ),
+        'JoliCode\\Slack\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jolicode/slack-php-api/src',
+        ),
+        'Jane\\OpenApiRuntime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jane-php/open-api-runtime',
+        ),
+        'Jane\\JsonSchemaRuntime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jane-php/json-schema-runtime',
+        ),
+        'Http\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/promise/src',
+        ),
+        'Http\\Message\\MultipartStream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/multipart-stream-builder/src',
+        ),
+        'Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/message/src',
+            1 => __DIR__ . '/..' . '/php-http/message-factory/src',
+        ),
+        'Http\\Discovery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/discovery/src',
+        ),
+        'Http\\Client\\Curl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/curl-client/src',
+        ),
+        'Http\\Client\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/client-common/src',
+        ),
+        'Http\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/httplug/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'Clue\\StreamFilter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/clue/stream-filter/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'R' => 
+        array (
+            'Rs\\Json' => 
+            array (
+                0 => __DIR__ . '/..' . '/php-jsonpointer/php-jsonpointer/src',
+            ),
         ),
     );
 
@@ -25,6 +181,7 @@ class ComposerStaticInit69bdcf24ba78ee4b176fc3f2c8ec93e9
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit69bdcf24ba78ee4b176fc3f2c8ec93e9::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit69bdcf24ba78ee4b176fc3f2c8ec93e9::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit69bdcf24ba78ee4b176fc3f2c8ec93e9::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
